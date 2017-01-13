@@ -22,6 +22,9 @@ using Shitou.Common;
 
 namespace Shitou.WebService
 {
+    /// <summary>
+    /// 服务实现
+    /// </summary>
     public class AppService : IAppService
     {
         private IUserService userService;
@@ -37,10 +40,10 @@ namespace Shitou.WebService
         /// <returns></returns>
         public string Test()
         {
-            LogHelper.Debug("测试Debug");
-            LogHelper.Info("测试Info");
-            LogHelper.Error("测试Error");
-            LogHelper.Warn("测试Warn");
+            LogManager.Debug("测试Debug");
+            LogManager.Info("测试Info");
+            LogManager.Error("测试Error");
+            LogManager.Warn("测试Warn");
             return "abc";
         }
 

@@ -36,19 +36,19 @@ namespace Shitou.WebService
         /// </summary>
         /// <param name="request"></param>
         /// <returns></returns>
-        //AppResponse<List<GetUserListResponse>> GetUserList(GetUserListRequest request);
+        AppResponse<List<GetUserListResponse>> GetUserList(GetUserListRequest request);
         /// <summary>
         /// 用户信息
         /// </summary>
         /// <param name="request"></param>
         /// <returns></returns>
-        //AppResponse AddUser(UserInfo request);
+        AppResponse AddUser(UserInfo request);
         /// <summary>
         /// 用户信息
         /// </summary>
         /// <param name="request"></param>
         /// <returns></returns>
-        //AppResponse<UserInfo> GetUserInfo(string mobileNo);
+        AppResponse<UserInfo> GetUserInfo(string mobileNo);
         #endregion
     }
 }

@@ -76,12 +76,12 @@ namespace Shitou.Task
                 }
                 else
                 {
-                    LogHelper.Error("定时任务启动失败，TaskConfig.Instance为null。");
+                    LogManager.Error("定时任务启动失败，TaskConfig.Instance为null。");
                 }
             }
             catch(Exception ex)
             {
-                LogHelper.Error("定时任务启动失败，", ex);
+                LogManager.Error("定时任务启动失败，", ex);
             }
         }
         /// <summary>

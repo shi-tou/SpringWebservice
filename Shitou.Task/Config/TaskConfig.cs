@@ -21,7 +21,7 @@ namespace Shitou.Task
             }
             catch(Exception ex)
             {
-                LogHelper.Error("解析定时任务配置文件[Config/TaskSetting.json]出错");
+                LogManager.Error("解析定时任务配置文件[Config/TaskSetting.json]出错");
                 Instance = null;
             }
         }

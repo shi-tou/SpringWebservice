@@ -58,7 +58,7 @@ namespace Shitou.WebService
                               "\r\n堆栈信息： " + ex.StackTrace;
             this.Context.Server.ClearError();
 
-            LogHelper.Error("系统出现异常:\r\n" + errorDesc);
+            LogManager.Error("系统出现异常:\r\n" + errorDesc);
         }
 
         protected void Session_End(object sender, EventArgs e)

@@ -15,7 +15,7 @@ namespace Shitou.Task.Jobs
         private static ILog logger;
         static SecondJob()
         {
-            logger = LogManager.GetLogger(typeof(SecondJob));
+            logger = global::Common.Logging.LogManager.GetLogger(typeof(SecondJob));
         }
         public void Execute(IJobExecutionContext context)
         {

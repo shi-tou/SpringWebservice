@@ -15,7 +15,7 @@ namespace Shitou.Task.Jobs
         private static ILog logger;
         static FirstJob()
         {
-            logger = LogManager.GetLogger(typeof(FirstJob));
+            logger = global::Common.Logging.LogManager.GetLogger(typeof(FirstJob));
         }
         public void Execute(IJobExecutionContext context)
         {
