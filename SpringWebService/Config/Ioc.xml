@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!--描述：基于Spring.Net人依赖注入配置-->
+<objects xmlns="http://www.springframework.net">
+	<!--数据访问基类-->
+	<object id="baseDao" type="Shitou.Dao.BaseDao, Shitou.Dao">
+		<property name="AdoTemplate" ref="adoTemplate"/>
+	</object>
+  <!--业务服务基类-->
+	<object id="baseService" type="Shitou.Service.BaseService,Shitou.Service">
+		<property name="BaseDao" ref="baseDao" />
+	</object>
+	
+  <!--用户数据访问-->
+  <object id="userDao" type="Shitou.Dao.UserDao,Shitou.Dao"  parent="baseDao">
+  </object>
+  <!--用户业务服务-->
+  <object id="userService" type="Shitou.Service.UserService,Shitou.Service"  parent="baseService">
+    <property name="UserDao" ref="userDao" />
+  </object>
+  
+</objects>

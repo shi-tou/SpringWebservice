@@ -1,0 +1,44 @@
+﻿
+/**描述：定时任务配置**/
+{
+  //任务
+  "Jobs": [
+    {
+      //任务名
+      "Name": "FirstJob",
+      //分组
+      "Group": "Default",
+      //任务类型(全限定名)
+      "Type": "Shitou.Task.Jobs.FirstJob",
+      //指定Triggers中配置触发器名称
+      "Trigger": "FirstTrigger",
+      //是否启用
+      "Enabled": true
+    },
+    {
+      "Name": "SecondJob",
+      "Group": "Default",
+      "Type": "Shitou.Task.Jobs.SecondJob",
+      "Trigger": "SecondTrigger",
+      "Enabled": false
+    }
+
+  ],
+  //触发器
+  "Triggers": [
+    {
+      "Name": "FirstTrigger",
+      "Group": "Default",
+      "CronExpression": "0/5 * * * * ? *", //每5分
+      "StartTime": null,
+      "EndTime": null
+    },
+    {
+      "Name": "SecondTrigger",
+      "Group": "Default",
+      "CronExpression": "0/30 * * * * ? *", //每30分
+      "StartTime": null,
+      "EndTime": null
+    }
+  ]
+}
