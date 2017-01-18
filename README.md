@@ -1,21 +1,21 @@
-# SrpingWebservice
+# SpringWebservice
 
 http://note.youdao.com/noteshare?id=73bb8df363099de9b7413d82fc287387<br><br>
 
-(1)¡¢»ùÓÚSpring.NetµÄWebService·şÎñ-¡¾×¼±¸Æª¡¿<br><br>
+(1)ã€åŸºäºSpring.Netçš„WebServiceæœåŠ¡-ã€å‡†å¤‡ç¯‡ã€‘<br><br>
 
-(2)¡¢»ùÓÚSpring.NetµÄWebService·şÎñ-¡¾¹¹ÔìWebServiceÆª¡¿<br><br>
+(2)ã€åŸºäºSpring.Netçš„WebServiceæœåŠ¡-ã€æ„é€ WebServiceç¯‡ã€‘<br><br>
 
-(3)¡¢»ùÓÚSpring.NetµÄWebService·şÎñ-¡¾Dao±àÂëÆª¡¿<br><br>
+(3)ã€åŸºäºSpring.Netçš„WebServiceæœåŠ¡-ã€Daoç¼–ç ç¯‡ã€‘<br><br>
 
-(4)¡¢»ùÓÚSpring.NetµÄWebService·şÎñ-¡¾Dao ×¢ÈëÅäÖÃÆª¡¿<br><br>
+(4)ã€åŸºäºSpring.Netçš„WebServiceæœåŠ¡-ã€Dao æ³¨å…¥é…ç½®ç¯‡ã€‘<br><br>
 
-(5)¡¢»ùÓÚSpring.NetµÄWebService·şÎñ-¡¾ServiceÒµÎñ²ãÆª¡¿<br><br>
+(5)ã€åŸºäºSpring.Netçš„WebServiceæœåŠ¡-ã€Serviceä¸šåŠ¡å±‚ç¯‡ã€‘<br><br>
 
-(6)¡¢»ùÓÚSpring.NetµÄWebService·şÎñ-¡¾Ğ´¸öÓÃ»§¹ÜÀí·şÎñ½Ó¿Ú¡¿<br><br>
+(6)ã€åŸºäºSpring.Netçš„WebServiceæœåŠ¡-ã€å†™ä¸ªç”¨æˆ·ç®¡ç†æœåŠ¡æ¥å£ã€‘<br><br>
 
-(7)¡¢»ùÓÚSpring.NetµÄWebService·şÎñ-¡¾ÈÕÖ¾¹ÜÀíÆª¡¿<br><br>
+(7)ã€åŸºäºSpring.Netçš„WebServiceæœåŠ¡-ã€æ—¥å¿—ç®¡ç†ç¯‡ã€‘<br><br>
 
-(8)¡¢»ùÓÚSpring.NetµÄWebService·şÎñ-¡¾µ÷¶ÈÈÎÎñÆª1¡¿<br><br>
+(8)ã€åŸºäºSpring.Netçš„WebServiceæœåŠ¡-ã€è°ƒåº¦ä»»åŠ¡ç¯‡1ã€‘<br><br>
 
-(9)¡¢»ùÓÚSpring.NetµÄWebService·şÎñ-¡¾µ÷¶ÈÈÎÎñÆª2¡¿<br><br>
+(9)ã€åŸºäºSpring.Netçš„WebServiceæœåŠ¡-ã€è°ƒåº¦ä»»åŠ¡ç¯‡2ã€‘<br><br>
